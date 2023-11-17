@@ -746,7 +746,7 @@ export interface ApiGameGame extends Schema.CollectionType {
     cover: Attribute.Media & Attribute.Required;
     wallpaper: Attribute.Media & Attribute.Required;
     screenshots: Attribute.Media & Attribute.Required;
-    releaseData: Attribute.Date & Attribute.Required;
+    releaseDate: Attribute.Date & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

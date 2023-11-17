@@ -65,7 +65,7 @@
         "images"
       ]
     },
-    "releaseData": {
+    "releaseDate": {
       "type": "date",
       "required": true
     }
